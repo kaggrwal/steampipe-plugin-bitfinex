@@ -1,8 +1,8 @@
 ![image]()
 
-# WHOIS Plugin for Steampipe
+# Bitfinex Plugin for Steampipe
 
-Use SQL to query domain records, name servers and contact information from WHOIS.
+Use SQL to query data from Bitfinex
 
 
 ## Quick start
@@ -27,7 +27,7 @@ Clone:
 
 ```sh
 git clone https://github.com/kaggrwal/steampipe-plugin-bitfinex.git
-cd steampipe-plugin-whois
+cd steampipe-plugin-bitfinex
 ```
 
 Build, which automatically installs the new version to your `~/.steampipe/plugins` directory:

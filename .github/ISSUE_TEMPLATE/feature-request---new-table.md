@@ -1,7 +1,7 @@
 ---
 name: Feature request - New table
 about: Suggest a new table for this project
-title: Add table whois_<resource>
+title: Add table bitfinex_<resource>
 labels: enhancement, new table
 assignees: ''
 
