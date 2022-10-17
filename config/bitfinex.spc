@@ -1,0 +1,3 @@
+connection "bitfinex" {
+  plugin = "bitfinex"
+}
