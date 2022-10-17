@@ -1,2 +1,2 @@
 install:
-	go build -o ~/.steampipe/plugins/local/bitfinex@latest/steampipe-plugin-bitfinex.plugin *.go
+	go build -o ~/.steampipe/plugins/hub.steampipe.io/plugins/turbot/bitfinex@latest/steampipe-plugin-bitfinex.plugin *.go
