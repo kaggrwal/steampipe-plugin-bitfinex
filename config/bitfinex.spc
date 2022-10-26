@@ -1,3 +1,3 @@
 connection "bitfinex" {
-  plugin = "bitfinex"
+  plugin = "kaggrwal/bitfinex"
 }

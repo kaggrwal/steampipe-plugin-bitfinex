@@ -1,12 +1,12 @@
 ---
-organization: turbot
+organization: kaggrwal
 category: ["internet"]
 icon_url: "/images/plugins/turbot/bitfinex.svg"
 brand_color: "#16B157"
-display_name: BITFINEX
-name: bitfinex
+display_name: Bitfinex
+short_name: bitfinex
 description: Steampipe plugin for querying data from bitfinex
-og_description: Query BITFINEX with SQL! Open source CLI. No DB required. 
+og_description: Query Bitfinex with SQL! Open source CLI. No DB required. 
 og_image: "/images/plugins/turbot/bitfinex-social-graphic.png"
 ---
 
@@ -47,7 +47,7 @@ where
 Download and install the latest BITFINEX plugin:
 
 ```bash
-steampipe plugin install bitfinex
+steampipe plugin install kaggrwal/bitfinex
 ```
 
 ### Configuration
@@ -56,7 +56,7 @@ No configuration is needed. Installing the latest bitfinex plugin will create a 
 
 ```hcl
 connection "bitfinex" {
-  plugin = "bitfinex"
+  plugin = "kaggrwal/bitfinex"
 }
 ```
 
