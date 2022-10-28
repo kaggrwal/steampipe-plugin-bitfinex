@@ -20,17 +20,17 @@ func tableBitFinexCurrency(ctx context.Context) *plugin.Table {
 		},
 		Columns: []*plugin.Column{
 			// Top columns
-			{Name: "currency", Type: proto.ColumnType_STRING, Transform: transform.FromField("Currency").NullIfZero(), Description: "Currency for which Config is requested"},
+			{Name: "currency", Type: proto.ColumnType_STRING, Transform: transform.FromField("Currency").NullIfZero(), Description: "Currency for which Config is requested."},
 
 			// Currency Data
-			{Name: "label", Type: proto.ColumnType_STRING, Transform: transform.FromField("Label").NullIfZero(), Description: "Verbose friendly name for the currency"},
-			{Name: "symbol", Type: proto.ColumnType_STRING, Transform: transform.FromField("Symbol").NullIfZero(), Description: "API symbol for the currency"},
-			{Name: "unit", Type: proto.ColumnType_STRING, Transform: transform.FromField("Unit").NullIfZero(), Description: "Unit of measure for the currency"},
-			{Name: "pairs", Type: proto.ColumnType_STRING, Transform: transform.FromField("Pairs").Transform(sliceToCommaSepratedValues).NullIfZero(), Description: "All pairs for the currency"},
-			{Name: "pools", Type: proto.ColumnType_STRING, Transform: transform.FromField("Pools").Transform(sliceToCommaSepratedValues).NullIfZero(),Description: "Network/Protocol which is used by currency"},
-		    {Name: "explorers_base_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.BaseUri").NullIfZero(), Description: "Recognised block explorer Base URL for the currency"},
-			{Name: "explorers_address_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.AddressUri").NullIfZero(), Description: "Recognised block explorer Address URL for the currency"},
-		    {Name: "explorers_transaction_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.TransactionUri").NullIfZero(), Description: "Recognised block explorer Transaction URL for the currency"},
+			{Name: "label", Type: proto.ColumnType_STRING, Transform: transform.FromField("Label").NullIfZero(), Description: "Verbose friendly name for the currency."},
+			{Name: "symbol", Type: proto.ColumnType_STRING, Transform: transform.FromField("Symbol").NullIfZero(), Description: "API symbol for the currency."},
+			{Name: "unit", Type: proto.ColumnType_STRING, Transform: transform.FromField("Unit").NullIfZero(), Description: "Unit of measure for the currency."},
+			{Name: "pairs", Type: proto.ColumnType_STRING, Transform: transform.FromField("Pairs").Transform(sliceToCommaSepratedValues).NullIfZero(), Description: "All pairs for the currency."},
+			{Name: "pools", Type: proto.ColumnType_STRING, Transform: transform.FromField("Pools").Transform(sliceToCommaSepratedValues).NullIfZero(),Description: "Network/Protocol which is used by currency."},
+		    {Name: "explorers_base_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.BaseUri").NullIfZero(), Description: "Recognised block explorer Base URL for the currency."},
+			{Name: "explorers_address_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.AddressUri").NullIfZero(), Description: "Recognised block explorer Address URL for the currency."},
+		    {Name: "explorers_transaction_url", Type: proto.ColumnType_STRING, Transform: transform.FromField("Explorers.TransactionUri").NullIfZero(), Description: "Recognised block explorer Transaction URL for the currency."},
 
 		
 			
