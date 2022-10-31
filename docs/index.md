@@ -1,13 +1,13 @@
 ---
 organization: kaggrwal
 category: ["internet"]
-icon_url: "/images/plugins/turbot/bitfinex.svg"
+icon_url: "/images/plugins/kaggrwal/bitfinex.svg"
 brand_color: "#16B157"
 display_name: Bitfinex
 short_name: bitfinex
 description: Steampipe plugin for querying data from bitfinex
 og_description: Query Bitfinex with SQL! Open source CLI. No DB required. 
-og_image: "/images/plugins/turbot/bitfinex-social-graphic.png"
+og_image: "/images/plugins/kaggrwal/bitfinex-social-graphic.png"
 ---
 
 # BITFINEX + Steampipe
